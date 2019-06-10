@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mvc
+    data-username: root
+    data-password: root
+    type: com.mysql.cj.jdbc.MysqlDataSource
+mybatis:
+  mapper-locations: 
